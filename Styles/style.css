@@ -7,7 +7,7 @@ header nav {
   width: 100%;
   background-color: #0f1111;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 header nav .nav-logo {
@@ -17,6 +17,7 @@ header nav .nav-logo {
   background-size: cover;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
+  margin-left: 25px;
 }
 header nav .nav-search {
   display: flex;
@@ -36,4 +37,20 @@ header nav .nav-search i {
   font-size: 1.3rem;
   background-color: rgb(255, 145, 0);
   width: 45px;
+}
+header nav .nav-signIn {
+  letter-spacing: 10px;
+  margin-right: 25px;
+}
+header nav .nav-signIn button {
+  height: 35px;
+  width: 70px;
+  background-color: rgb(255, 187, 0);
+}
+header nav .nav-signIn button a {
+  text-decoration: none;
+}
+header nav .nav-signIn i {
+  color: white;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=style.css.map */
