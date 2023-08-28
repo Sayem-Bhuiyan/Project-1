@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    border: border-box;
 }
 
 header {
@@ -31,6 +32,8 @@ header {
                 border: none;
                 font-size: 0.85rem;
                 font-weight: 500;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
             }
             
             i {
@@ -40,6 +43,12 @@ header {
                 font-size: 1.3rem;
                 background-color: rgb(255, 145, 0);
                 width: 45px;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+            }
+
+            i:hover {
+                background-color: rgb(255, 123, 0);
             }
         }
 
@@ -63,4 +72,41 @@ header {
             }
         }
     }
+
+    .panel {
+        height: 40px;
+        color: white;
+        background-color: #0f1111dc;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+
+        .panel-option {
+            margin-left: 15px;
+            font-size: 0.85rem;
+            font-weight: 650;
+            i {
+                font-size: 1.2rem;
+            }
+        }
+
+        .panel-menu {
+            
+            ul {
+                li {
+                    display: inline;
+                    list-style-type: none;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 0.9rem;
+                        font-weight: 650;
+                        margin: auto 20px;
+                    }
+                }
+            }
+        }
+    }
+
 }
