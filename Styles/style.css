@@ -131,6 +131,9 @@ main .main-container .main-bg button {
   border-bottom-left-radius: 22px;
   border-top-right-radius: 22px;
 }
+main .main-container .main-bg button:hover {
+  background-color: rgb(255, 166, 0);
+}
 main .service-section {
   margin-top: 60px;
   text-align: center;
@@ -208,10 +211,4 @@ main .about-us .about-content button {
 main .about-us .about-content button:hover {
   background-color: transparent;
   color: black;
-}
-
-footer {
-  margin-top: 50px;
-  height: 200px;
-  background-color: #0f1111;
 }/*# sourceMappingURL=style.css.map */

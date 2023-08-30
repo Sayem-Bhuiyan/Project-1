@@ -156,6 +156,9 @@ main {
                 border-top-right-radius: 22px;
             }
             
+            button:hover {
+                background-color: rgb(255, 166, 0);
+            }
         }   
     }
 
@@ -252,10 +255,4 @@ main {
             }
         }
     }
-}
-
-footer {
-    margin-top: 50px;
-    height: 200px;
-    background-color: #0f1111;
 }
