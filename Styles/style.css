@@ -171,4 +171,47 @@ main .service-section .container-fluied .box p {
 }
 main .service-section .container-fluied .box:hover {
   background-color: rgb(255, 166, 0);
+}
+main .about-us {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+main .about-us img {
+  width: 400px;
+  height: 400px;
+}
+main .about-us .about-content {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+main .about-us .about-content h2 {
+  margin-top: 35px;
+  font-size: 40px;
+}
+main .about-us .about-content p {
+  margin-top: 35px;
+  font-size: 18px;
+  font-family: arial;
+}
+main .about-us .about-content button {
+  margin-top: 35px;
+  height: 45px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+main .about-us .about-content button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+footer {
+  margin-top: 50px;
+  height: 200px;
+  background-color: #0f1111;
 }/*# sourceMappingURL=style.css.map */
