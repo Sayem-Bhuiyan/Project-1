@@ -76,7 +76,8 @@ header .panel .panel-option {
   font-weight: 650;
 }
 header .panel .panel-option i {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin-right: 2px;
 }
 header .panel .panel-menu ul li {
   display: inline;
@@ -88,4 +89,45 @@ header .panel .panel-menu ul li a {
   font-size: 0.9rem;
   font-weight: 650;
   margin: auto 20px;
+}
+
+main .main-container {
+  height: 3600px;
+  width: 100%;
+}
+main .main-container .main-bg {
+  height: 360px;
+  width: 100%;
+  background-image: url("/images/landing-page-1.png");
+  background-size: cover;
+  color: rgba(17, 16, 19, 0.835);
+  text-align: center;
+  padding-top: 200px;
+}
+main .main-container .main-bg h2 {
+  font-family: arial;
+  font-size: 40px;
+  font-weight: 750;
+}
+main .main-container .main-bg h1 {
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+main .main-container .main-bg p {
+  font-family: arial;
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: 500;
+  color: black;
+}
+main .main-container .main-bg button {
+  margin-top: 35px;
+  height: 45px;
+  width: 200px;
+  font-size: 20px;
+  border: none;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-top-right-radius: 22px;
 }/*# sourceMappingURL=style.css.map */
