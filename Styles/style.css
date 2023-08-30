@@ -92,7 +92,7 @@ header .panel .panel-menu ul li a {
 }
 
 main .main-container {
-  height: 3600px;
+  height: 560px;
   width: 100%;
 }
 main .main-container .main-bg {
@@ -122,12 +122,52 @@ main .main-container .main-bg p {
   color: black;
 }
 main .main-container .main-bg button {
-  margin-top: 35px;
+  margin-top: 60px;
   height: 45px;
-  width: 200px;
+  width: 250px;
   font-size: 20px;
   border: none;
   border-top-left-radius: 22px;
   border-bottom-left-radius: 22px;
   border-top-right-radius: 22px;
+}
+main .service-section {
+  margin-top: 60px;
+  text-align: center;
+}
+main .service-section h1 {
+  font-family: arial;
+  font-size: 40px;
+  font-weight: 700;
+}
+main .service-section p {
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: arial;
+}
+main .service-section .container-fluied {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+main .service-section .container-fluied .box {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+main .service-section .container-fluied .box i {
+  font-size: 35px;
+  vertical-align: center;
+}
+main .service-section .container-fluied .box p {
+  font-size: 14px;
+}
+main .service-section .container-fluied .box:hover {
+  background-color: rgb(255, 166, 0);
 }/*# sourceMappingURL=style.css.map */
