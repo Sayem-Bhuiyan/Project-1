@@ -167,6 +167,7 @@ main .service-section .container-fluied .box i {
 }
 main .service-section .container-fluied .box p {
   font-size: 14px;
+  font-weight: 400;
 }
 main .service-section .container-fluied .box:hover {
   background-color: rgb(255, 166, 0);
