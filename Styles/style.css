@@ -211,4 +211,15 @@ main .about-us .about-content button {
 main .about-us .about-content button:hover {
   background-color: transparent;
   color: black;
+}
+
+footer {
+  margin-top: 35px;
+  height: 130px;
+  font-size: 0.95rem;
+  background-color: rgba(15, 17, 17, 0.9058823529);
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */
